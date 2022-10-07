@@ -1,0 +1,18 @@
+pytest
+monai
+mdutils
+pandas
+seaborn
+
+# AutoPET
+connected-components-3d
+batchgenerators
+# see memory leak issues
+# https://forum.hdfgroup.org/t/h5py-memory-leak-in-combination-with-pytorch-dataset-with-multiple-workers/9114
+# https://github.com/h5py/h5py/issues/2010
+h5py==3.1.0
+nibabel
+
+# install locally or uncomment next line
+# -e git+https://github.com/civodlu/trw.git#egg=trw
+# -e git+https://github.com/civodlu/trw.git@7f8d2a04840553aaf208e6f895fe57735838e57b#egg=trw

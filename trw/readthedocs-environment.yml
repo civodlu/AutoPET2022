@@ -1,0 +1,12 @@
+name: pytorch367_cpu
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cpuonly
+  - python=3.6.7
+  - pytorch
+  - torchvision
+  - pip:
+    - sphinx-autoapi
+    - bokeh

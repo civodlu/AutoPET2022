@@ -1,0 +1,13 @@
+targets=7
+sample_uid=26560
+dataset_name=mnist
+split_name=train
+output_raw=[ -4.1532574    9.261978     1.8861417    3.9088767   -3.622756
+  -5.074301   -11.502649     9.02507      2.3811123   -0.06164526]
+output=1
+output_truth=7
+uid=26560
+losses=0.82221603
+targets_str=7 - seven
+output_str=1 - one
+output_truth_str=7 - seven

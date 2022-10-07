@@ -1,0 +1,40 @@
+trigger:
+  branches:
+    include:
+    - '*'
+  batch: true
+
+strategy:
+  matrix:
+    linux:
+      imageName: 'ubuntu-latest'
+      python.version: '3.9'
+      torch: 'torch==1.10.0+cpu torchvision==0.11.1+cpu -f https://download.pytorch.org/whl/torch_stable.html'
+
+    windows:
+      imageName: 'windows-latest'
+      python.version: '3.9'
+      torch: 'torch==1.0.0 torchvision==0.2.1 -f https://download.pytorch.org/whl/torch_stable.html'
+
+pool:
+  vmImage: $(imageName)
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '$(python.version)'
+    displayName: 'Use Python $(python.version)'
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install $(torch)
+      pip install -r requirements-dependencies.txt
+      pip install -r requirements-ci.txt
+      pip install -e .
+    displayName: 'Install dependencies'
+
+  - script: |
+      echo '##[debug] Starting tests...'
+      python tasks.py --task=task_test
+      echo '##[debug] Tests done!'
+    displayName: 'Running tests'

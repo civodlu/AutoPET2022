@@ -1,0 +1,31 @@
+Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour (https://arxiv.org/abs/1706.02677)
+- learning rate warmup -> only in PyTorch > 1.2 with refactoring of the chainable schedulers (https://github.com/pytorch/pytorch/issues/13022)
+- normalized learning rate
+
+Autoaugment https://arxiv.org/abs/1805.09501)
+
+mixup 1710.09412
+
+cutout 1708.04552
+
+DARTS https://github.com/dragen1860/DARTS-PyTorch
+
+CARS: Continuous Evolution for Efficient Neural Architecture Search
+https://github.com/huawei-noah/CARS
+
+"Interpretable Explanations of Black Boxes by Meaningful Perturbation"
+https://github.com/jacobgil/pytorch-explain-black-box
+
+Models
+https://github.com/kuangliu/pytorch-cifar/tree/master/models
+
+
+
+Debugging Python C/C++ extensions in gdb
+http://droettboom.com/blog/2015/11/20/gdb-python-extensions/
+https://devguide.python.org/gdb/
+https://codewithoutrules.com/2017/08/16/concurrency-python/
+
+
+Fixes:
+- BUG: aggregation of gradient issues when part of a model is frozen

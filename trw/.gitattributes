@@ -1,0 +1,8 @@
+# Force bash scripts to always use lf line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+
+*.py text eol=lf
+*.rst text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf

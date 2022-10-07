@@ -1,0 +1,7 @@
+pytest>=4.6
+pytest-cov
+coverage
+coveralls
+twine
+psutil
+mypy

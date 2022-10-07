@@ -1,0 +1,18 @@
+# tensorboardX issues with the newest protocol buffer
+protobuf <= 3.20
+
+pillow
+matplotlib
+numpy
+scikit-learn
+scikit-image
+pandas
+tensorboardX
+tensorboard
+onnx
+bokeh >= 2.1
+scipy
+typing-extensions
+threadpoolctl
+psutil
+

@@ -1,0 +1,60 @@
+{
+   "datasets": {
+      "auto_pet": {
+         "train": [
+            "PETCT_0410759456_tp_08-22-2003-NA-P.pkl.lz4",
+            "PETCT_5109748328_tp_08-03-2002-NA-P.pkl.lz4",
+            "PETCT_3a40a26443_tp_10-02-2005-NA-P.pkl.lz4",
+            "PETCT_7b42056ee3_tp_10-13-2002-NA-P.pkl.lz4",
+            "PETCT_63508c679d_tp_08-21-2005-NA-P.pkl.lz4",
+            "PETCT_ab953a5230_tp_11-03-2003-NA-P.pkl.lz4",
+            "PETCT_7323c415d0_tp_02-26-2006-NA-P.pkl.lz4",
+            "PETCT_b510436d83_tp_11-14-2003-NA-P.pkl.lz4",
+            "PETCT_8c5d99b459_tp_05-04-2007-NA-P.pkl.lz4",
+            "PETCT_80f7760f65_tp_11-14-2005-NA-P.pkl.lz4",
+            "PETCT_c10f48b173_tp_11-27-2004-NA-P.pkl.lz4",
+            "PETCT_77bceab232_tp_11-21-2002-NA-P.pkl.lz4",
+            "PETCT_5ac322455f_tp_05-26-2003-NA-P.pkl.lz4",
+            "PETCT_644d80e987_tp_02-15-2003-NA-P.pkl.lz4",
+            "PETCT_e344879c2e_tp_03-08-2007-NA-P.pkl.lz4",
+            "PETCT_ae6a37a9d6_tp_08-18-2005-NA-P.pkl.lz4",
+            "PETCT_a29cae0316_tp_06-29-2006-NA-P.pkl.lz4",
+            "PETCT_1cb2d26a19_tp_06-04-2007-NA-P.pkl.lz4",
+            "PETCT_27d69a8466_tp_12-16-2001-NA-P.pkl.lz4",
+            "PETCT_c32e1daf9b_tp_02-02-2003-NA-P.pkl.lz4",
+            "PETCT_402c061122_tp_08-25-2003-NA-P.pkl.lz4",
+            "PETCT_4250de48c8_tp_02-12-2001-NA-P.pkl.lz4",
+            "PETCT_e252be4334_tp_07-09-2004-NA-P.pkl.lz4",
+            "PETCT_d31c9ebd93_tp_07-21-2003-NA-P.pkl.lz4",
+            "PETCT_ca5406d339_tp_12-09-2004-NA-P.pkl.lz4",
+            "PETCT_8a52353a72_tp_02-17-2003-NA-P.pkl.lz4",
+            "PETCT_f144b214af_tp_02-23-2001-NA-P.pkl.lz4",
+            "PETCT_2716c9bfff_tp_10-31-2002-NA-P.pkl.lz4",
+            "PETCT_21e4ffcb52_tp_05-06-2002-NA-P.pkl.lz4",
+            "PETCT_ec581d49ef_tp_01-23-2003-NA-P.pkl.lz4",
+            "PETCT_b2f82ed4b9_tp_11-11-2002-NA-U.pkl.lz4",
+            "PETCT_8aa48809ea_tp_04-16-2001-NA-P.pkl.lz4",
+            "PETCT_dae86b88e2_tp_06-21-2003-NA-P.pkl.lz4",
+            "PETCT_c517c47bed_tp_02-06-2003-NA-P.pkl.lz4",
+            "PETCT_6170317f2e_tp_02-18-2000-NA-P.pkl.lz4",
+            "PETCT_f9e0c504af_tp_06-29-2003-NA-P.pkl.lz4",
+            "PETCT_a3ce52b2a8_tp_10-19-2002-NA-P.pkl.lz4",
+            "PETCT_30c4b7062b_tp_01-18-2001-NA-P.pkl.lz4",
+            "PETCT_9b1bb2165a_tp_10-13-2002-NA-P.pkl.lz4",
+            "PETCT_321bba14bc_tp_03-07-2002-NA-P.pkl.lz4",
+            "PETCT_6fe855c937_tp_12-29-2001-NA-P.pkl.lz4",
+            "PETCT_b2244b5591_tp_05-15-2003-NA-P.pkl.lz4",
+            "PETCT_5fa9d9a820_tp_09-15-2002-NA-P.pkl.lz4",
+            "PETCT_7fbb39290e_tp_08-15-2002-NA-P.pkl.lz4",
+            "PETCT_993d40ea7e_tp_12-25-2005-NA-P.pkl.lz4"
+         ],
+         "test": [
+            "PETCT_4cc808d16f_tp_06-11-2006-NA-P.pkl.lz4",
+            "PETCT_b4e5c1047c_tp_10-10-2004-NA-P.pkl.lz4",
+            "PETCT_9afd440677_tp_03-17-2003-NA-P.pkl.lz4",
+            "PETCT_1956667fce_tp_02-10-2006-NA-P.pkl.lz4",
+            "PETCT_01140d52d8_tp_08-13-2005-NA-P.pkl.lz4"
+         ]
+      }
+   }
+}

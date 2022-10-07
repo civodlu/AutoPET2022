@@ -1,0 +1,20 @@
+{
+   "datasets": {
+      "auto_pet": {
+         "train": [
+            "PETCT_0410759456_tp_08-22-2003-NA-P.pkl.lz4",
+            "PETCT_5109748328_tp_08-03-2002-NA-P.pkl.lz4",
+            "PETCT_3a40a26443_tp_10-02-2005-NA-P.pkl.lz4",
+            "PETCT_7b42056ee3_tp_10-13-2002-NA-P.pkl.lz4",
+            "PETCT_ab953a5230_tp_11-03-2003-NA-P.pkl.lz4",
+            "PETCT_7323c415d0_tp_02-26-2006-NA-P.pkl.lz4",
+            "PETCT_b510436d83_tp_11-14-2003-NA-P.pkl.lz4",
+            "PETCT_8c5d99b459_tp_05-04-2007-NA-P.pkl.lz4",
+            "PETCT_80f7760f65_tp_11-14-2005-NA-P.pkl.lz4"
+         ],
+         "test": [
+            "PETCT_63508c679d_tp_08-21-2005-NA-P.pkl.lz4"
+         ]
+      }
+   }
+}
