@@ -16,6 +16,10 @@ Using Conda:
 Update in `<root>/auto_pet/src/auto_pet/projects/segmentation/preprocessing/config/data.py`
 the `<root>` variable. This is where the nifty files, preprocessing and training results will be stored.
 
+## Docker
+Container can be accessed [here](https://drive.google.com/file/d/1cOves8DnxoQXwqAyXGas8KMRhz1eV7uN/view?usp=sharing)
+
+
 ## Data
 Download the dataset `nifti.zip` from the challenge website and unzip in `<root>/dataset/raw/FDG-PET-CT-Lesions/`.
 
